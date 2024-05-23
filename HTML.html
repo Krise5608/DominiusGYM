@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS.css">
+    <title>DOMINIUS GYM</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1><span class="txtRojo">DOMINIUS GYM</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=61556946720689"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dominiusgym/"><i class="fa-brands fa-square-instagram"></i>
+                <a href="ejem.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="juego.html"><i class="fa fa-gamepad" aria-hidden="true"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>HAZ QUE <span class="txtRojo">OCURRA</span></h2>
+                <p>Triunfar es más facil de lo que piensas!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    HOMBRES
+                </div>
+                <div class="opcion">
+                    MUJERES
+                </div>
+                <div class="opcion">
+                    ACCESORIOS        
+                </div>
+                <div class="opcion">
+                    PLANES DE ENTRENAMIENTO
+                </div>
+                <div class="opcion">
+                    PLANES DE NUTRICION
+                </div>
+                <div class="opcion">
+                    SUPLEMENTOS
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="img/nosotros.png" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        01
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>NOSOTROS</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Nuevos lanzamientos, nuevas razones para ir al gimnasio. De nada.</p>
+                <p>Envios Gratis y CONFIABLES</p>
+            </div>
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DIFERENTE
+                </span>
+                <h2>PRENDAS <span class="txtRojo">COMODAS</span> TAMAÑO <span class="txtRojo">PERFECTO</span></h2>
+            </div>
+            </div>
+        </div>
+        <div>
+            <a href="index.html">
+            <button>
+              <h1>Click aqui -> DOMINIUS SHOP TE ESPERA! <span class="txtRojo">LAS MEJORES PRENDAS PARA GIMNASIO <- click aqui</span></h1>
+            </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">LA MEJOR EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <p class="p-especial">¡NOSOTROS TE AYUDAMOS! Asesoramiento y Nutricion</p>
+                    <p>Contactanos para clases privadas acerca de tu plan de entrenamiento y dietas de alimentacion para cumplir tus propositos y tus metas.</p>
+                </div>
+                <div class="col">
+                    <img src="img/servicios.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3></span>Plan de Entrenamiento</span><br><span class="txtRojo">PRINCIPIANTE</h3>
+                        <p>Videos explicativos para principiantes en el mundo del gimnasio</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3></span>Plan de entrenamiento</span><br><span class="txtRojo">Intermedio</h3>
+                        <p>Videos explicativos para intermedios en el mundo del gimnasio</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3></span>Plan de entrenamiento</span><br><span class="txtRojo">Avanzado</h3>
+                        <p>Videos explicativos para avanzados en el mundo del gimnasio</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3></span>Dietas de Entrenamiento</span><br><span class="txtRojo">Principiante</span></h3>
+                        <p>Videos explicativos para principiante acerca de su nutricion dependiendo su plan de entrenamiento</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3></span>Dietas de Entrenamiento</span><br><span class="txtRojo">Intermedio</span></h3>
+                        <p>Videos explicativos para intermedio acerca de su nutricion dependiendo su plan de entrenamiento</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3></span>Dietas de Entrenamiento</span><br><span class="txtRojo">Avanzado</span></h3>
+                        <p>Videos explicativos para avanzado acerca de su nutricion dependiendo su plan de entrenamiento</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="comodidades .jpg" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">LA MEJOR EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Plataforma online, con el objetivo de divulgar contenido sobre entrenamiento y nutrición tomando como base la ciencia</p>
+                <ul>
+                    <li><span>GANAR MASA MUSCULAR</span> OBJETIVO GANAR MASA MUSCULAR dependiendo de tu plan de entrenamiento (Principiante,Intermedio,Avanzado) es el correcto para ti</li>
+                    <li><span>PERDER GRASA</span>OBJETIVO PERDER GRASA dependiendo de tu plan de entrenamiento (Principiante,Intermedio,Avanzado) es el correcto para ti</li>                              </li>
+                    <li><span>RECOMPOSICION CORPORAL</span>OBJETIVO RECOMPOSICION CORPORAL dependiendo de tu plan de entrenamiento (Principiante,Intermedio,Avanzado) es el correcto para ti</li>
+                    <li><span>PLAN PERSONALIZADO</span> PLAN ESPECIALMENTE PARA TI (Planes personalizados para tus horarios, tus metas y nutricion ASESORADO PREGUNTAS,LLAMADAS CON EL EQUIPO DOMINIUSGYM) 
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+        
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f1.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f2.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f3.jpg" alt="">
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/f4.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f5.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="img/f6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/e1.png" alt="">
+                    <div class="info">
+                        <h2>LIAM</h2>
+                        <p></p>
+                        <a href="https://www.facebook.com/liam.soto.524?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/liam_st_oz?igsh=bnN2MnNqand1eHE3">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e2.png" alt="">
+                    <div class="info">
+                        <h2>JONATHAN</h2>
+                        <p></p>
+                        <a href="https://www.facebook.com/profile.php?id=100088439822064&mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yoliztli_aulex?igsh=MWJ5M2JrbTY1ZDVzNw==">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/e3.png" alt="">
+                    <div class="info">
+                        <h2>CRISTIAN</h2>
+                        <p></p>
+                        <a href="https://www.facebook.com/Krise5608?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/krise5608?igsh=MXU5Yzk2NWx2eTE3bw==">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">LA MEJOR EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <form action="mailto:dominiusgym@gmail.com">                
+
+                <button>Enviar Mensaje</button>
+            </form>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Avenida Morro 255
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    2664 - 456788
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 8:00h - 24:00h
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">©DOMINIUSGYM</span> Todos los derechos reservados</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+ 
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
